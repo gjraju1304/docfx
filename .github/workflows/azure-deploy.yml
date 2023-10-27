@@ -21,3 +21,10 @@ jobs:
 
       - name: Build Documentation
         run: docfx main/docfx_project/docfx.json
+
+      - name: Upload to Azure Blob Storage
+        uses: azure/CLI@v1
+        with:
+          azcliversion: 2.28.0
+          inlineScript: |
+            az storage blob upload-batch --account-name documentdeployment --account-key dNzTpkgTX0mmwfd5l30m6X/hAzXuv7qZ11vFTOSANvWQy+J3hpZEydJnHaE26fkFvu4CjoeHp+/j+ASt+8J9+Q== --destination deploy1 --source main/docfx_project/_site
