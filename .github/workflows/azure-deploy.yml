@@ -1,6 +1,9 @@
 name: azure-deploy
 
 on:
+  push:
+    branches:
+      - main
   workflow_dispatch:
 
 jobs:
