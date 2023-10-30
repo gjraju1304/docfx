@@ -1,4 +1,9 @@
 # This is the **HOMEPAGE**.
+
+# Azure Automation
+
+Automation script for Azure deployment
+
 ## Azure deployment 
  testing the deployment procedure
 Refer to [Markdown](http://daringfireball.net/projects/markdown/) for how to write markdown files.
