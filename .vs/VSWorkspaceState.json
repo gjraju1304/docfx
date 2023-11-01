@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\.github",
+    "\\.github\\workflows",
+    "\\docfx_project"
   ],
+  "SelectedNode": "\\docfx_project\\index.md",
   "PreviewInSolutionExplorer": false
 }
