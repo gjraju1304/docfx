@@ -2,7 +2,7 @@
 
 # Azure Automation
 
-Automation script for Azure deployment
+Automation script for Azure static webite
 
 ## Azure deployment 
  testing the deployment procedure
