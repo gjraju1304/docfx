@@ -5,6 +5,6 @@
     "\\.github\\workflows",
     "\\docfx_project"
   ],
-  "SelectedNode": "\\docfx_project\\index.md",
+  "SelectedNode": "\\.github\\workflows\\azure-deploy.yml",
   "PreviewInSolutionExplorer": false
 }
